@@ -1,0 +1,28 @@
+alias: Butt Plug_Randomiser
+description: ""
+trigger:
+  - platform: state
+    entity_id: input_boolean.plug_randomiser
+    to: "on"
+condition: []
+action:
+  - repeat:
+      sequence:
+        - service: light.turn_on
+          data_template:
+            entity_id: light.butt_plug
+            brightness_pct: "{{ (range(70, 100)|random) }}"
+            transition: 1
+        - delay:
+            hours: 0
+            minutes: 0
+            seconds: 5
+            milliseconds: 0
+      until:
+        - condition: state
+          entity_id: input_boolean.plug_randomiser
+          state: "off"
+mode: single
+initial_state: "on"
+
+# Create the above input boolean for PLUG RANDOMISER in the helper window

@@ -1,0 +1,40 @@
+esphome:
+  name: buttplug
+
+esp8266:
+  board: d1_mini
+    
+output:
+  - platform: esp8266_pwm
+    pin: D1
+    id: dee1
+    frequency: 1000 hz
+    # uncomment and edit next line to calibrate plug motor, bring power on motor down until it stops moving, record the value below 
+    # min_power: 0.3
+    zero_means_zero: true
+
+
+# Example usage in a light
+light:
+  - platform: monochromatic
+    name: "Butt Plug"
+    output: dee1
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+
+ota:
+  password: "42a09d4bba9a0715accb3d24f3106189"
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+
+  # Enable fallback hotspot in case wifi connection fails
+  ap:
+    ssid: "Plug Fallback Hotspot"
+    password: "e6PdqSbo6Rnf"
+    

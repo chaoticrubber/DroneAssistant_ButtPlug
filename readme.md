@@ -1,6 +1,7 @@
 # DroneAssistant Buttplug
 ## An Home Assistant Powered Butt Plug
 
+
 ### Parts and Materials
 
 You will need
@@ -44,3 +45,6 @@ should mean it's splashproof which makes cleaning the toy after play easier,
     - tweak as needed
 
 I've added a modified flicker automation, which will work with a toggle helper you'd need to setup in home assistant which would vary the amount of power every 6 seconds 
+
+
+![Drag Racing](/pics/plugg.jpeg)

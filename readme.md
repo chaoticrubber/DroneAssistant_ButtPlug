@@ -11,6 +11,9 @@ You will need
 - a Loose Knowledge of how to use ESPHome
 
 #### **Hardware with Links**
+- **A BUTTPLUG** I use this one by LoveHoney, It looks to be OEM so you may find the same thing under a different brand, It's very simple in wiring with just a rotary pot on the controller which is also a battery holder, we won't be needing this part for construction
+    - https://www.amazon.co.uk/gp/product/B092VVXM63/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1
+
 -  ESP D1 Mini, I used these you can use any kind of ESP that works with ESP Home, It needs to have PWM outputs which most do. Warning, the ESP D1 Minis will require you to solder the legs on, you can get pre-soldered boards such as the ESP8266 Dev kit
     - https://www.amazon.co.uk/Development-NodeMcu-ESP8266-Internet-Compatible/dp/B08QZ2887K/ref=sr_1_6?crid=3MIWN7WQOOAXW&keywords=ESP+D1&qid=1660992149&sprefix=esp+d1%2Caps%2C74&sr=8-6
 - PWM to Voltage Convertor Board - I used these DC Motor Controllers You need something that takes the PWM Speed control from the ESP and turns it into more or less voltage, these work very well are small and cheap. - these will require you solder the wires in place or solder on header cables 
@@ -21,9 +24,9 @@ You will need
 
 Some way of making conecting wires together, I recomend wago style cage clamp connectors, prefferably made by wago, 
 
-#### **Container**
+#### **Container For Electronics**
 For the container I used the a Wiska box 206 and an M20 gland, this 
-should mean it's splashproof which makes cleaning after play easier, 
+should mean it's splashproof which makes cleaning the toy after play easier, 
     
 - https://ww.amazon.co.uk/WISKA-Weatherproof-Outdoor-External-Junction/dp/B08D6MBFZG/ref=sr_1_2?crid=189E8EJDCG5FF&keywords=wiska+206&qid=1660992783&sprefix=wiska+206%2Caps%2C66&sr=8-2
 
